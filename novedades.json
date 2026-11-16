@@ -1,0 +1,1894 @@
+{
+ "generated": "2026-11-16",
+ "week": {
+  "start": "2026-11-06",
+  "end": "2026-11-13"
+ },
+ "error": null,
+ "genres": [
+  {
+   "genre": "house",
+   "tracks": [
+    {
+     "id": "0z5NYyTxDQwhrbNOM7FLtr",
+     "name": "Lick Ya - Modegroove Remix 2026",
+     "artists": [
+      "The Cube Guys",
+      "ATFC",
+      "Modegroove"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851c3ca3f1bd35db0b36dffa707",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6FiKm0uMPClvM0Tb1s6Bt9",
+     "name": "All I Need Is Somebody",
+     "artists": [
+      "French Montana",
+      "Max B",
+      "Jamie Foxx"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485156be4bf14bc9fe457788649c",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0cnjcVvWzx9xvHGrzrsFfa",
+     "name": "That's All",
+     "artists": [
+      "Tim Sanders",
+      "Vinter"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048517ef10a7fedc319ed8497fdcf",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "2rfs2rSEFJ9kKNyYIqh4J7",
+     "name": "Turn It Louder",
+     "artists": [
+      "Piero Pirupa",
+      "PIZAR (IT)"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048512a97d92db3b3f2553beab1f1",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "69vgBCSwWXCWPMk1TfoJqG",
+     "name": "Turn It Louder - Extended Mix",
+     "artists": [
+      "Piero Pirupa",
+      "PIZAR (IT)"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048512a97d92db3b3f2553beab1f1",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6i0mauyUtfJ6Wb3QLVxKc6",
+     "name": "BbY WOW - John Summit Remix",
+     "artists": [
+      "KAROL G",
+      "John Summit",
+      "Judeline",
+      "rusowsky"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851e0c4675dc9564417cf462513",
+     "type": "single",
+     "date": "2026-11-12"
+    },
+    {
+     "id": "160wVfS6OgXxhyPkDYOhLi",
+     "name": "Honeymoon",
+     "artists": [
+      "54 Ultra"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485131aef8c920caa86e86dfc9f0",
+     "type": "single",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "genre": "indie dance",
+   "tracks": [
+    {
+     "id": "5SXvHuvzGBTuAqwlVxGeYG",
+     "name": "What's So Funny",
+     "artists": [
+      "Notre Dame",
+      "Moontalk"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851a1d3eaaa19a4c5464c31b206",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "26gVoY61Fp1aGuY9oy1mr2",
+     "name": "Leave This World Behind",
+     "artists": [
+      "Pavel Petrov",
+      "Tyler Hill"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851b65e15a474b86b08d60b0f19",
+     "type": "single",
+     "date": "2026-11-12"
+    },
+    {
+     "id": "798HVH9epIemNgR8VXhVHE",
+     "name": "Leave This World Behind - Fast Version",
+     "artists": [
+      "Pavel Petrov",
+      "Tyler Hill"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851b65e15a474b86b08d60b0f19",
+     "type": "single",
+     "date": "2026-11-12"
+    },
+    {
+     "id": "22pSPYNLIybPPx4HctEThE",
+     "name": "HMTE",
+     "artists": [
+      "Carl Bee"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048511227a47c51f2a856e8c15a97",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "44g2FoR28qLJ9vXMOSCsAP",
+     "name": "Hold On",
+     "artists": [
+      "Frankey & Sandrino"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048510cec81a3f836c901c51958cd",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4rrDX2fkSA9SJEr0BVQNxI",
+     "name": "Reso3000",
+     "artists": [
+      "Losless"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485159319c6ec3834be6857f7d9f",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0a3elpsS9aObQeKoN0EXV0",
+     "name": "Do it Right",
+     "artists": [
+      "TH;EN"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485130c4266f66b358ec8eba707b",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6dvRaxEY60BZO1MNIYApkp",
+     "name": "Major Way",
+     "artists": [
+      "Arude"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048511831f5e9099ee4a4596049b0",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5AFINGs0La7oRTsG8foLA9",
+     "name": "Undertone",
+     "artists": [
+      "Miss Monique",
+      "Paradoks"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048514e529ea50c3536ff0f1fde3f",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "74frtL99Og8UzQVcnXMBx9",
+     "name": "The Light",
+     "artists": [
+      "HIGHLITE",
+      "ZENØN"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851591345bfc9563c7864a7aae7",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "3LD5gYPOx3UhmGa3KLhrwc",
+     "name": "Leaning Close",
+     "artists": [
+      "Peredel",
+      "Wave Wave"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851c31f35c31ca22a49c5555a38",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4Dmk9rCKnTI6lm6lmfL0WY",
+     "name": "Leaning Close - Extended Mix",
+     "artists": [
+      "Peredel",
+      "Wave Wave"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851c31f35c31ca22a49c5555a38",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4v2w44m9NFtwd66ZKGocHx",
+     "name": "Skyfall - Original Mix",
+     "artists": [
+      "DEFLEE",
+      "DUB PEPPER"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485110b566ba7e5363b79f7cdc20",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "11OagpsW3dPqYtP69RqDbg",
+     "name": "It's About That Time",
+     "artists": [
+      "David LeSal",
+      "KYTOR"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851bd438141ce055dd9ef0d3544",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "47Tpuk7FNvvbQslv3mPLql",
+     "name": "Stomp The Floor",
+     "artists": [
+      "Oppaacha"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048510f138476557cc7587c6348bf",
+     "type": "single",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "1RuMjiHLrHl2MMd68pgOCu",
+     "name": "Touché",
+     "artists": [
+      "Oppaacha"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048510f138476557cc7587c6348bf",
+     "type": "single",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "0zRROC5AtMlCv7G9JMcJgj",
+     "name": "Login",
+     "artists": [
+      "Oppaacha"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048510f138476557cc7587c6348bf",
+     "type": "single",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "1FGqNVZ5LKEaSC5eCM2dM9",
+     "name": "Ice Baby",
+     "artists": [
+      "Jon.K"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048511e377f1684f6ed48fb45f470",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4ODrOY5MPaV6VdsJL0YH0J",
+     "name": "All Gas No Brakes - Original Mix",
+     "artists": [
+      "NILU (DK)",
+      "I Promised Mom"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048516f8a90a9c5996008517447e1",
+     "type": "single",
+     "date": "2026-10-30"
+    },
+    {
+     "id": "6Jw27KzPje1lcLqZerBLqi",
+     "name": "Soul",
+     "artists": [
+      "Jacob (IL)"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048514a5088f7b7c03a6df6b96bb4",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1iUNHk3lN8EZMIhcB68uAc",
+     "name": "Last All Night",
+     "artists": [
+      "Juicy Romance",
+      "Azzecca"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048516d349b405561c4062a54edef",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "34A8MfRZzzfK5wTuuDWnoq",
+     "name": "What's Happening",
+     "artists": [
+      "Gabss",
+      "RIKO & GUGGA"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485139bc4aa00a6371336a4fd325",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "3Og72jOmRdKd0qLIthP4VV",
+     "name": "Burn",
+     "artists": [
+      "RBØR"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048516fb2438dfa5ee52ff822a402",
+     "type": "single",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "genre": "indie tipo cerato",
+   "tracks": [
+    {
+     "id": "5SXvHuvzGBTuAqwlVxGeYG",
+     "name": "What's So Funny",
+     "artists": [
+      "Notre Dame",
+      "Moontalk"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851a1d3eaaa19a4c5464c31b206",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1QQ7oQqRIVQvgpBwEFhccC",
+     "name": "Demolator",
+     "artists": [
+      "BOg"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851610de6fdf99cb01d6ca30692",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1OcBIJcAKApGEtJ45XsPnX",
+     "name": "In Your Eyes",
+     "artists": [
+      "DJ Kuba",
+      "Neitan",
+      "Sarah de Warren"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485186e84bfdde2be040ec13083d",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5UA3PQHJZBOZpKPuMObIzQ",
+     "name": "In Your Eyes - Extended Mix",
+     "artists": [
+      "DJ Kuba",
+      "Neitan",
+      "Sarah de Warren"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485186e84bfdde2be040ec13083d",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0w1or8S3YYhOCpphJA42Bf",
+     "name": "Too Many Blessings",
+     "artists": [
+      "Fab Massimo"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851fcb0b2ada4b4a45713690977",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4hPB9DN3l0j8M9DjioVFo9",
+     "name": "Replace It",
+     "artists": [
+      "Fab Massimo"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851fcb0b2ada4b4a45713690977",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4ssrvlhQneXull5ePtqutG",
+     "name": "Bounce",
+     "artists": [
+      "BVRRN",
+      "Haylee Wood"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048513125102be48cf52eb18e4350",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1ixN6DtCv4fpxtuTOZfgi7",
+     "name": "Do You Know Me",
+     "artists": [
+      "Hidden Empire"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851c84a20f7843cba8b4e84d82d",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7akMS4xGza1nzFDYPXclk9",
+     "name": "Freak",
+     "artists": [
+      "Dansyn",
+      "Sam Collins"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048511db54c457405331e85b9c68a",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4XJFkpqzzwjr13ZOix9oC5",
+     "name": "Freak - Extended Mix",
+     "artists": [
+      "Dansyn",
+      "Sam Collins"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048511db54c457405331e85b9c68a",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "18ZRs3qRienSCie0f2fr67",
+     "name": "Heavyweight Sound",
+     "artists": [
+      "Adam In Deep"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485167ed92176b5794dad757cb0e",
+     "type": "single",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "genre": "melodic",
+   "tracks": [
+    {
+     "id": "0vLK8SYzBaUckvq9KKbgt3",
+     "name": "Not Over Yet (Grace, Paul Oakenfold vs. Julian Fijma)",
+     "artists": [
+      "Grace",
+      "Paul Oakenfold",
+      "Julian Fijma"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851fdd4c7b18ca5c71a9bc6f46c",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0aX3kC6nd4dtC0pVWmA15H",
+     "name": "Not Over Yet (Grace, Paul Oakenfold vs. Julian Fijma) - Extended",
+     "artists": [
+      "Grace",
+      "Paul Oakenfold",
+      "Julian Fijma"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851fdd4c7b18ca5c71a9bc6f46c",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6FQVXdoPJZwQ3dpYaz26OO",
+     "name": "Big Brother Theme 2026 - Fish56Octagon Remix",
+     "artists": [
+      "Paul Oakenfold",
+      "Fish56Octagon"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048516b52386c18694e8242f79da0",
+     "type": "single",
+     "date": "2026-11-11"
+    },
+    {
+     "id": "0kesqMJ47YOxDUTOlClT8d",
+     "name": "Eyes on You (Big Brother Theme)",
+     "artists": [
+      "Paul Oakenfold",
+      "Raphaella"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048516b52386c18694e8242f79da0",
+     "type": "single",
+     "date": "2026-11-11"
+    },
+    {
+     "id": "4cHFkOB10FnCFnLvqG23d9",
+     "name": "SILK SCARF - Red Axes Remix",
+     "artists": [
+      "Tiga",
+      "Red Axes"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851890636ce93223348742ec4d6",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5b71iWZKGTul9dUjBZnTpO",
+     "name": "SILK SCARF - Philipp Gorbachev & Ilya Gadaev Remix",
+     "artists": [
+      "Tiga",
+      "Philipp Gorbachev",
+      "Ilya Gadaev"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851890636ce93223348742ec4d6",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6yRKwv34j6muyVfL285vaM",
+     "name": "SILK SCARF - Broken Hill Remix",
+     "artists": [
+      "Tiga",
+      "Broken Hill"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851890636ce93223348742ec4d6",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "32dAySvc8XNya3KkZKg3TG",
+     "name": "Keep Your Head Up",
+     "artists": [
+      "Diplo"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851a15ddddf655e71d24cf20b99",
+     "type": "single",
+     "date": "2026-11-09"
+    },
+    {
+     "id": "6ZkrQjZc3PEqfHv6pOyRiN",
+     "name": "Let Me Cook",
+     "artists": [
+      "Diplo",
+      "A$AP Ferg"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851a15ddddf655e71d24cf20b99",
+     "type": "single",
+     "date": "2026-11-09"
+    },
+    {
+     "id": "3m963OFI9guXBJqvgWYRGJ",
+     "name": "Warlock",
+     "artists": [
+      "Woo York"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851380704292c30d94747040f3c",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "21GYvHYUc9QhyhnPQPQaQe",
+     "name": "Levitate",
+     "artists": [
+      "Woo York"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851380704292c30d94747040f3c",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5gaGStXzZ1QMu5FtT9I49O",
+     "name": "Break It Down",
+     "artists": [
+      "Firebeatz",
+      "Skytech"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851566a95c38606cb5b4f90e0e4",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6anRAzlCHgq6aqQPV70doo",
+     "name": "The Chant - Original",
+     "artists": [
+      "Che Jose"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851c207d8339b1ce5a460bcf8a4",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0Wjdf7VG8kEZfeK2TyquxT",
+     "name": "Tom",
+     "artists": [
+      "Chris Avantgarde",
+      "Sama (US)"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851b236cc198a4b6d1e3bab92f6",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0b17ZmK8vRhHmSFvAX5STc",
+     "name": "Loving Me - Extended Mix",
+     "artists": [
+      "CAMELPHAT",
+      "Malandra Jr."
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851eaf0cc2ddc5ba917de480592",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5D6cRj0ljzFlzOhyig1Baf",
+     "name": "Lena",
+     "artists": [
+      "Yuna"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048518b28d53a18d005e6ad9cd35a",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6RNEy9kYWE7rZSWZ3fg0Ma",
+     "name": "Senjata",
+     "artists": [
+      "Yuna"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048518b28d53a18d005e6ad9cd35a",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0dyJUaax14S1CCVIpW5oJJ",
+     "name": "Turn Back Time",
+     "artists": [
+      "Yuna"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048518b28d53a18d005e6ad9cd35a",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5vdPg8L63LS7XvxwQJCl4t",
+     "name": "Tinggi Rendah Langit",
+     "artists": [
+      "Yuna"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048518b28d53a18d005e6ad9cd35a",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0k5HbtZds5DxOP7FY1IK8g",
+     "name": "Intuisi",
+     "artists": [
+      "Yuna"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048518b28d53a18d005e6ad9cd35a",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "01h466lEIYVhOBX3MpghXb",
+     "name": "Rockstar",
+     "artists": [
+      "Yuna"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048518b28d53a18d005e6ad9cd35a",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "65lbD5NBypdW9KsEhM0dOA",
+     "name": "Siren",
+     "artists": [
+      "Yuna"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048518b28d53a18d005e6ad9cd35a",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "39fBpl4JDDjmfiXKTm5AQQ",
+     "name": "Chainless",
+     "artists": [
+      "SAFARIS"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851b193ad238f58a82928d622f8",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7LVLjgQUvPYyiwRdmXa91B",
+     "name": "Chainless - Extended Mix",
+     "artists": [
+      "SAFARIS"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851b193ad238f58a82928d622f8",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4rrDX2fkSA9SJEr0BVQNxI",
+     "name": "Reso3000",
+     "artists": [
+      "Losless"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485159319c6ec3834be6857f7d9f",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1OcBIJcAKApGEtJ45XsPnX",
+     "name": "In Your Eyes",
+     "artists": [
+      "DJ Kuba",
+      "Neitan",
+      "Sarah de Warren"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485186e84bfdde2be040ec13083d",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5UA3PQHJZBOZpKPuMObIzQ",
+     "name": "In Your Eyes - Extended Mix",
+     "artists": [
+      "DJ Kuba",
+      "Neitan",
+      "Sarah de Warren"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485186e84bfdde2be040ec13083d",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4KVdE42LocuYEDE7LAaMO9",
+     "name": "Give It Up For Me - Weska Pressure Cooker Remix",
+     "artists": [
+      "Sydney Blu",
+      "Weska"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851f034fbed573a581c1df6c2a5",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4qXgjMNIRHKyire7WBehs0",
+     "name": "In The Night",
+     "artists": [
+      "Ahmed Helmy"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485139cbea040ba048f7d6241289",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0a3elpsS9aObQeKoN0EXV0",
+     "name": "Do it Right",
+     "artists": [
+      "TH;EN"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485130c4266f66b358ec8eba707b",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7KlPmZRuQVtmRhQTV6Prre",
+     "name": "Dots - Echonomist Remix",
+     "artists": [
+      "8Kays",
+      "Samuel Miller",
+      "Echonomist"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851fe41f3f7eff8786ffc86a264",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "2rlTax5eiOx3KltsGQBdF3",
+     "name": "Dots",
+     "artists": [
+      "8Kays",
+      "Samuel Miller"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851fe41f3f7eff8786ffc86a264",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6dvRaxEY60BZO1MNIYApkp",
+     "name": "Major Way",
+     "artists": [
+      "Arude"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048511831f5e9099ee4a4596049b0",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5AFINGs0La7oRTsG8foLA9",
+     "name": "Undertone",
+     "artists": [
+      "Miss Monique",
+      "Paradoks"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048514e529ea50c3536ff0f1fde3f",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0HORnpEcVAZ2S3kFEkvRAO",
+     "name": "Rama Katha",
+     "artists": [
+      "Davide Famularo",
+      "Francesco Addati",
+      "Antonella Antoa Bianco",
+      "Laura Klain"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851a4102214747975918f406985",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7GhpLoDKZyMla6ojdc6KIF",
+     "name": "Elektro",
+     "artists": [
+      "Eliad Cohen",
+      "Efrat Naaman",
+      "Nicky Goldstein"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485144e0fd25b83a355c67b53e01",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0PSq0r48lW2g3dJp7RgCbn",
+     "name": "Jungle",
+     "artists": [
+      "Mia Mendi",
+      "Skuro (IT)",
+      "Blake Light"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851d9d5a8d2c31297ec631cd530",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "3YavKX1T38gTXHAxVyEd96",
+     "name": "The Beat",
+     "artists": [
+      "Dubdogz"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851c6d78c792195577dba10c702",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6kS3lqJbbtkiDYErGxHfLZ",
+     "name": "CRACK! (feat. MOTHICA & Halo Boy) - shattered version",
+     "artists": [
+      "Au/Ra",
+      "MOTHICA",
+      "Halo Boy"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851dbe96a2617be8a2e91bdb034",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1mjRPkXDENuMWPBSlC4XyA",
+     "name": "Forever Real",
+     "artists": [
+      "Sesli",
+      "ThereWereTwo"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851d95a1c8f0b6d1265183758e4",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0zrZSgonNeIep0UPlAV0Gk",
+     "name": "Push",
+     "artists": [
+      "Dezko"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851d4f431fe7fd2f7527f1830d6",
+     "type": "single",
+     "date": "2026-11-12"
+    },
+    {
+     "id": "5gpLQrAOI9Ra9F2QeIFxHA",
+     "name": "Closer",
+     "artists": [
+      "Glowal",
+      "Dish Dash"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485120418a634cce8cd53f566126",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "645dyFc48f9xfzUCeXwSdJ",
+     "name": "Now Until Forever",
+     "artists": [
+      "HALŌ",
+      "DubVision",
+      "Matisse & Sadko",
+      "Third Party",
+      "Bonn",
+      "FORS"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851676717d162ad16715a375ee2",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5SZWCrFMbXg3JMSKZzHOtb",
+     "name": "Now Until Forever - Extended Mix",
+     "artists": [
+      "HALŌ",
+      "DubVision",
+      "Matisse & Sadko",
+      "Third Party",
+      "Bonn",
+      "FORS"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851676717d162ad16715a375ee2",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4hMVs6rGLbcwB36TZirRNd",
+     "name": "Levitate - Psy Edit",
+     "artists": [
+      "Lauren Mia",
+      "Delaney Jane"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485174093cb9dd7462a00bd922ad",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1977KITdDeE32g1ulKFlum",
+     "name": "Levitate",
+     "artists": [
+      "Lauren Mia",
+      "Delaney Jane"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485174093cb9dd7462a00bd922ad",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "25iiNDuOwARI66selbMse6",
+     "name": "This Is Not The End",
+     "artists": [
+      "Rose Ringed"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851118fffae0f2d75c7a5bdbdf1",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5nGBS43QW6d58IVGqNU9sF",
+     "name": "To The End - Extended Mix",
+     "artists": [
+      "Double Disco"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851398477f4b501c55a51a106db",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4AcdcSKxuSQEmoTRDjZ65z",
+     "name": "To The End - Radio Edit",
+     "artists": [
+      "Double Disco"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851398477f4b501c55a51a106db",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "2bl66x64X5nC5WIQEaORmZ",
+     "name": "Floating",
+     "artists": [
+      "Acrobatik",
+      "Vassel"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485121d57a663dcccccf8460baad",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "2yyepvfcBcqw4ge21V2FSy",
+     "name": "MINDLOOP",
+     "artists": [
+      "ORISS"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048513294c5e963556c21eaea2baa",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6Rbh41pAMzKepYVtO1EszI",
+     "name": "TEMPTATION",
+     "artists": [
+      "ORISS"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048513294c5e963556c21eaea2baa",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "34A8MfRZzzfK5wTuuDWnoq",
+     "name": "What's Happening",
+     "artists": [
+      "Gabss",
+      "RIKO & GUGGA"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485139bc4aa00a6371336a4fd325",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1ixN6DtCv4fpxtuTOZfgi7",
+     "name": "Do You Know Me",
+     "artists": [
+      "Hidden Empire"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851c84a20f7843cba8b4e84d82d",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "3gP2kzQCIZcfUDShB8CzKc",
+     "name": "Come Undone",
+     "artists": [
+      "OSPHOR"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851711bc740a1c254786f44ca70",
+     "type": "single",
+     "date": "2026-11-09"
+    },
+    {
+     "id": "0zzic7mi7H2YdSSerCCS3N",
+     "name": "Come Undone - Extended",
+     "artists": [
+      "OSPHOR"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851711bc740a1c254786f44ca70",
+     "type": "single",
+     "date": "2026-11-09"
+    },
+    {
+     "id": "2fnQ0RwUucKkm9dK8fQTd7",
+     "name": "Baila Con Fuego",
+     "artists": [
+      "CcoSscou",
+      "Damas’ac"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851332802cb8bdf9463c5c1f5f0",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7akMS4xGza1nzFDYPXclk9",
+     "name": "Freak",
+     "artists": [
+      "Dansyn",
+      "Sam Collins"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048511db54c457405331e85b9c68a",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4XJFkpqzzwjr13ZOix9oC5",
+     "name": "Freak - Extended Mix",
+     "artists": [
+      "Dansyn",
+      "Sam Collins"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048511db54c457405331e85b9c68a",
+     "type": "single",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "genre": "progre",
+   "tracks": [
+    {
+     "id": "0vLK8SYzBaUckvq9KKbgt3",
+     "name": "Not Over Yet (Grace, Paul Oakenfold vs. Julian Fijma)",
+     "artists": [
+      "Grace",
+      "Paul Oakenfold",
+      "Julian Fijma"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851fdd4c7b18ca5c71a9bc6f46c",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0aX3kC6nd4dtC0pVWmA15H",
+     "name": "Not Over Yet (Grace, Paul Oakenfold vs. Julian Fijma) - Extended",
+     "artists": [
+      "Grace",
+      "Paul Oakenfold",
+      "Julian Fijma"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851fdd4c7b18ca5c71a9bc6f46c",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6FQVXdoPJZwQ3dpYaz26OO",
+     "name": "Big Brother Theme 2026 - Fish56Octagon Remix",
+     "artists": [
+      "Paul Oakenfold",
+      "Fish56Octagon"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048516b52386c18694e8242f79da0",
+     "type": "single",
+     "date": "2026-11-11"
+    },
+    {
+     "id": "0kesqMJ47YOxDUTOlClT8d",
+     "name": "Eyes on You (Big Brother Theme)",
+     "artists": [
+      "Paul Oakenfold",
+      "Raphaella"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048516b52386c18694e8242f79da0",
+     "type": "single",
+     "date": "2026-11-11"
+    },
+    {
+     "id": "1s1L2bRxJz50ybrT9EoxOu",
+     "name": "Mind, Body and Soul - Original Mix",
+     "artists": [
+      "Nihil Young",
+      "AHREUM"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851945e6d5d501a0d667c0ba2f2",
+     "type": "single",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "1CWKJcGPMaNhpS0WQaDuFA",
+     "name": "Abstract - Original Mix",
+     "artists": [
+      "Nihil Young",
+      "AHREUM"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851945e6d5d501a0d667c0ba2f2",
+     "type": "single",
+     "date": "2026-11-10"
+    },
+    {
+     "id": "16I4muPgTQNPe00GrsciS1",
+     "name": "Transference - Advanced Guide Version",
+     "artists": [
+      "Jamie Stevens"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7kvo8dsNTdVRlmkR6z07iC",
+     "name": "Calling All the Gods - Advanced Guide Version",
+     "artists": [
+      "Jamie Stevens",
+      "Skye"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "10xXK32sn4bNKiICESorpH",
+     "name": "Lanterns - Advanced Guide Version",
+     "artists": [
+      "Jamie Stevens"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0UM0ntoRwzLZB1LZxERcJh",
+     "name": "Ergo - Advanced Guide Version",
+     "artists": [
+      "Jamie Stevens"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0eAw0IIk377tvGAU0WKlxK",
+     "name": "Guided Interlude 1",
+     "artists": [
+      "Jamie Stevens"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "67Jq0q6A0fIkEB6TRSHDdP",
+     "name": "Haze - Advanced Guide Version",
+     "artists": [
+      "Jamie Stevens"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "3DDUXQ2Ey4La7cpyyRa4xF",
+     "name": "Guided Interlude 2",
+     "artists": [
+      "Jamie Stevens"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5rKkxUde2OV02BVz62Y7on",
+     "name": "Dust - Aquatic Dub",
+     "artists": [
+      "Jamie Stevens",
+      "French For Rabbits"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "78HL0gvCDfpFFSmwxBeAdw",
+     "name": "With You - Advanced Guide Version",
+     "artists": [
+      "Jamie Stevens"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5wWruJImaF9FYcuRqIgOrl",
+     "name": "Tassolem (Don't Worry 'bout Me) - Advanced Guide Version",
+     "artists": [
+      "Jamie Stevens"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "416liTwyJ1mAKTKq5CVRa2",
+     "name": "Stay - Advanced Guide Version",
+     "artists": [
+      "Jamie Stevens"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1bGYOTTugQZ1yS6PWJCh5e",
+     "name": "Tidings - Jamie's Soundtrack Version",
+     "artists": [
+      "Jamie Stevens"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "3uLWEF3uiCbHr8jLfKUIUi",
+     "name": "Erosa - Advanced Guide Version",
+     "artists": [
+      "Jamie Stevens"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4kjP6cTVUWfSwN87U67nqp",
+     "name": "Tell You Later - Jamie's Soundtrack Version",
+     "artists": [
+      "Jamie Stevens",
+      "Wilma"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "26BUxOFIeuj01gtrXIPk9w",
+     "name": "Vuier - Advanced Guide Version",
+     "artists": [
+      "Jamie Stevens",
+      "Wilma"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851761710ef6bfd58c9211b1903",
+     "type": "album",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7FrWNP2KLpaF30YZ3NeWGy",
+     "name": "Last Happiness",
+     "artists": [
+      "Avis Vox",
+      "Ghost Dance"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485116ac0d7620cc3185628bf69b",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "26gVoY61Fp1aGuY9oy1mr2",
+     "name": "Leave This World Behind",
+     "artists": [
+      "Pavel Petrov",
+      "Tyler Hill"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851b65e15a474b86b08d60b0f19",
+     "type": "single",
+     "date": "2026-11-12"
+    },
+    {
+     "id": "798HVH9epIemNgR8VXhVHE",
+     "name": "Leave This World Behind - Fast Version",
+     "artists": [
+      "Pavel Petrov",
+      "Tyler Hill"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851b65e15a474b86b08d60b0f19",
+     "type": "single",
+     "date": "2026-11-12"
+    },
+    {
+     "id": "2EnPFc9P6HCZGTT1CEBIms",
+     "name": "uNRe3P0nS!vE%",
+     "artists": [
+      "Luch"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851ba9e0081d37ea6ce7afbd8ac",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "2qiD6f4p8ryxcCQ5PuJSlp",
+     "name": "Conexiones",
+     "artists": [
+      "Peces Raros"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851f2eeafe533bbfc4211320b06",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "33O2g3wY2AvpzQNZcZrzsQ",
+     "name": "Dubai - Extended Mix",
+     "artists": [
+      "Redspace",
+      "Dj Meoz"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485158e61acdf040c76f542fe721",
+     "type": "ep",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6ULBPDieYHBwZAsaoL6rQM",
+     "name": "Breathe - Extended Mix",
+     "artists": [
+      "Redspace",
+      "Dj Meoz"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485158e61acdf040c76f542fe721",
+     "type": "ep",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5To9CNt7MDo2isj8KrTT2o",
+     "name": "Breathe - Martin Fredes Extended Remix",
+     "artists": [
+      "Redspace",
+      "Dj Meoz",
+      "Martin Fredes"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485158e61acdf040c76f542fe721",
+     "type": "ep",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7oyKSh7xlS5q3iwDF52Gqc",
+     "name": "Feel It - Extended Mix",
+     "artists": [
+      "Redspace",
+      "Dj Meoz"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485158e61acdf040c76f542fe721",
+     "type": "ep",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4Fv0O5WNdLxuxPYlnP7Ajx",
+     "name": "Breathe - Martin Fredes Remix",
+     "artists": [
+      "Redspace",
+      "Dj Meoz",
+      "Martin Fredes"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048511f74b1bcd3bea91ecb8f6992",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6QTCAkzF11fX0MuCCtQD2e",
+     "name": "Dubai",
+     "artists": [
+      "Redspace",
+      "Dj Meoz"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485184fee8a39f9bb80b1ede64b7",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7j6wMVavWGXgy5YNGy5kn5",
+     "name": "Breathe",
+     "artists": [
+      "Redspace",
+      "Dj Meoz"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485184fee8a39f9bb80b1ede64b7",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0w2eV1ENOemnLF3N4aGhwp",
+     "name": "Feel It",
+     "artists": [
+      "Redspace",
+      "Dj Meoz"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485184fee8a39f9bb80b1ede64b7",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0n5bqDS9zNjD3Y5fhYm72X",
+     "name": "Calma",
+     "artists": [
+      "TooRare",
+      "Futura City"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048514dd1bd55f4fee747076227dd",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5XQBCHgsvJ1dGmRsG5yppE",
+     "name": "So Good",
+     "artists": [
+      "Redspace",
+      "ORZCO"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048514dd1bd55f4fee747076227dd",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1ixN6DtCv4fpxtuTOZfgi7",
+     "name": "Do You Know Me",
+     "artists": [
+      "Hidden Empire"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851c84a20f7843cba8b4e84d82d",
+     "type": "single",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "genre": "psytrance",
+   "tracks": [
+    {
+     "id": "52Vc5zarY93nqBGFjYBMmi",
+     "name": "Are you gonna stay",
+     "artists": [
+      "Mblue",
+      "Shiah Maisel",
+      "AViVA"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851818f3f3d231995a225cfdbf1",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "3pBo0P6O4EApiLTs4eBtKW",
+     "name": "Escape",
+     "artists": [
+      "Raz",
+      "Upgrade",
+      "Meis",
+      "Raz Kfir"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851bda6d07e56dbe72528fd0f77",
+     "type": "single",
+     "date": "2026-11-12"
+    },
+    {
+     "id": "2IcZdpzES4qEHEbrKsimAY",
+     "name": "7.8",
+     "artists": [
+      "Richie Loop",
+      "A-Lectro"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851f8aaa93c228ab7690167719f",
+     "type": "album",
+     "date": "2026-11-09"
+    },
+    {
+     "id": "0XBzywZTt73MUqsazWRb4k",
+     "name": "Ben Ova",
+     "artists": [
+      "Richie Loop",
+      "Amanti Youthz",
+      "Dj Daddy"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851f8aaa93c228ab7690167719f",
+     "type": "album",
+     "date": "2026-11-09"
+    },
+    {
+     "id": "7bv0ZptlNEsfxHOkLz1erH",
+     "name": "Tally",
+     "artists": [
+      "Richie Loop",
+      "Frazze"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851f8aaa93c228ab7690167719f",
+     "type": "album",
+     "date": "2026-11-09"
+    },
+    {
+     "id": "2wdMFi2ZqNkR09ZlXLPytc",
+     "name": "Top Gyal",
+     "artists": [
+      "Richie Loop",
+      "JrGhetto"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851f8aaa93c228ab7690167719f",
+     "type": "album",
+     "date": "2026-11-09"
+    },
+    {
+     "id": "4Nque0ahkl9J49f0jCS3v8",
+     "name": "Calculator",
+     "artists": [
+      "Richie Loop",
+      "KYNGTE"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851f8aaa93c228ab7690167719f",
+     "type": "album",
+     "date": "2026-11-09"
+    },
+    {
+     "id": "1QkkKbC40zeVAnNUIad2WW",
+     "name": "Bikini",
+     "artists": [
+      "Richie Loop",
+      "J-Estilo"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851f8aaa93c228ab7690167719f",
+     "type": "album",
+     "date": "2026-11-09"
+    },
+    {
+     "id": "702K0nkceCy4G409Voipvx",
+     "name": "Multan Flow",
+     "artists": [
+      "Richie Loop",
+      "Negro Valle"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851f8aaa93c228ab7690167719f",
+     "type": "album",
+     "date": "2026-11-09"
+    },
+    {
+     "id": "359LFXNgzGxekSS7q84qQV",
+     "name": "Ella Manda",
+     "artists": [
+      "JETFIRE",
+      "Mushy"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485111e855549dd466d179935697",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7Eu3EI3dDhyTch5SLGZYIy",
+     "name": "Ella Manda - Edit",
+     "artists": [
+      "JETFIRE",
+      "Mushy"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485111e855549dd466d179935697",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1YTg7XlRnPuh8sMP3mYQEj",
+     "name": "No Cage",
+     "artists": [
+      "Giorgia Angiuli"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048512274b148495c06877ab59fdd",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "4PAzxXV6VRSlziGccTOUnU",
+     "name": "One Breath",
+     "artists": [
+      "Giorgia Angiuli"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048512274b148495c06877ab59fdd",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "10D6NAGKO2krDLjxKPRnJ7",
+     "name": "No More Running",
+     "artists": [
+      "Giorgia Angiuli"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048512274b148495c06877ab59fdd",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6lftl35J2MYdIbv3s2zAyM",
+     "name": "Endless Blue",
+     "artists": [
+      "X-Noize",
+      "Shivatree"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851af5edebafbfd573705db084d",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7hycW2QuKk85taDo13zjvu",
+     "name": "GET ME HIGH",
+     "artists": [
+      "R3SPAWN",
+      "Kevu",
+      "Alan Krevo"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851df338bdb7fbd016a572ab411",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "3nl7PGNWNl0O8ORI0fwzgq",
+     "name": "Rupa",
+     "artists": [
+      "Avan7",
+      "Elemental Energy"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851fa18afc3e9d3ffb50edee651",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "1h9oqoIqsqiEBiGbX8aIJs",
+     "name": "Love is the Winner",
+     "artists": [
+      "Grace (DE)",
+      "Psyfeature"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851366a364d268c4b41442f053c",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "2pgGGsExUtYzpg5LowYFEG",
+     "name": "ADIMUS",
+     "artists": [
+      "Raz"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851d2308beda019ba4198900fe8",
+     "type": "single",
+     "date": "2026-11-13"
+    }
+   ]
+  },
+  {
+   "genre": "reflexivos",
+   "tracks": [
+    {
+     "id": "6WSMienBYa0oo8ZtUyhQOa",
+     "name": "In My Aura",
+     "artists": [
+      "Topic"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048512f751f8c6f5fee3bec780656",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5FQK1AIvudJn4Sn1EFUjVW",
+     "name": "In My Aura - Extended Mix",
+     "artists": [
+      "Topic"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048512f751f8c6f5fee3bec780656",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0b17ZmK8vRhHmSFvAX5STc",
+     "name": "Loving Me - Extended Mix",
+     "artists": [
+      "CAMELPHAT",
+      "Malandra Jr."
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851eaf0cc2ddc5ba917de480592",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7JTzHfjco1BVsHECGdMAH3",
+     "name": "Somewhere Else",
+     "artists": [
+      "Jonas Saalbach",
+      "Feyva"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048510eb2cb89afe0dcb0186699f9",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5D5UwmU7JM2B5XKihUnOut",
+     "name": "Atlantic Hours",
+     "artists": [
+      "Jonas Saalbach"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048510eb2cb89afe0dcb0186699f9",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0a3elpsS9aObQeKoN0EXV0",
+     "name": "Do it Right",
+     "artists": [
+      "TH;EN"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d0000485130c4266f66b358ec8eba707b",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "2EnPFc9P6HCZGTT1CEBIms",
+     "name": "uNRe3P0nS!vE%",
+     "artists": [
+      "Luch"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851ba9e0081d37ea6ce7afbd8ac",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5QgyZwUUnD8iacDYroc1Dw",
+     "name": "I'll Make It Better",
+     "artists": [
+      "Mrs. Revival",
+      "Amber Revival"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851b4335f67fb509686286b7c41",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5AFINGs0La7oRTsG8foLA9",
+     "name": "Undertone",
+     "artists": [
+      "Miss Monique",
+      "Paradoks"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d000048514e529ea50c3536ff0f1fde3f",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "0PSq0r48lW2g3dJp7RgCbn",
+     "name": "Jungle",
+     "artists": [
+      "Mia Mendi",
+      "Skuro (IT)",
+      "Blake Light"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851d9d5a8d2c31297ec631cd530",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "6i0mauyUtfJ6Wb3QLVxKc6",
+     "name": "BbY WOW - John Summit Remix",
+     "artists": [
+      "KAROL G",
+      "John Summit",
+      "Judeline",
+      "rusowsky"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851e0c4675dc9564417cf462513",
+     "type": "single",
+     "date": "2026-11-12"
+    },
+    {
+     "id": "645dyFc48f9xfzUCeXwSdJ",
+     "name": "Now Until Forever",
+     "artists": [
+      "HALŌ",
+      "DubVision",
+      "Matisse & Sadko",
+      "Third Party",
+      "Bonn",
+      "FORS"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851676717d162ad16715a375ee2",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "5SZWCrFMbXg3JMSKZzHOtb",
+     "name": "Now Until Forever - Extended Mix",
+     "artists": [
+      "HALŌ",
+      "DubVision",
+      "Matisse & Sadko",
+      "Third Party",
+      "Bonn",
+      "FORS"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851676717d162ad16715a375ee2",
+     "type": "single",
+     "date": "2026-11-13"
+    },
+    {
+     "id": "7adewMzPhFcGwTD378YXjY",
+     "name": "Running Out",
+     "artists": [
+      "Alex Wann",
+      "David Mackay",
+      "briqs"
+     ],
+     "image": "https://i.scdn.co/image/ab67616d00004851aabff7cd9c8fe1f043fe964e",
+     "type": "single",
+     "date": "2026-11-13"
+    }
+   ]
+  }
+ ]
+}

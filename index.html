@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RadarNovedades</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' https://open.spotify.com https://embed-cdn.spotifycdn.com; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src https: data:; frame-src https://open.spotify.com; connect-src 'self'">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+  :root { --bg:#0e0e13; --panel:#17171f; --panel2:#1e1e28; --line:#2a2a36; --txt:#f3f3f7; --dim:#9a9aab; --acc:#8b5cf6; --bar-h:104px; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--txt); font:15px/1.4 "Inter",system-ui,Segoe UI,Arial,sans-serif; padding-bottom:calc(var(--bar-h) + 24px); }
+  h1,h2,.tab,.brand { font-family:"Space Grotesk","Inter",system-ui,sans-serif; }
+  button { font:inherit; color:inherit; cursor:pointer; }
+  header { padding:22px 28px 14px; background:linear-gradient(135deg, color-mix(in srgb, var(--acc) 38%, transparent), transparent 70%); border-bottom:1px solid var(--line); }
+  h1 { margin:0 0 4px; font-size:28px; letter-spacing:-.5px; }
+  .sub { color:var(--dim); font-size:14px; }
+  #tabs { display:flex; flex-wrap:wrap; gap:8px; padding:16px 28px 6px; }
+  .tab { --c:var(--acc); background:var(--panel); border:1px solid var(--line); border-radius:22px; padding:8px 16px; font-weight:500; font-size:14px; }
+  .tab:hover { border-color:var(--c); }
+  .tab.on { background:var(--c); border-color:var(--c); color:#0b0b0f; font-weight:700; }
+  #msg { margin:10px 28px 0; padding:12px 16px; border-radius:10px; display:none; }
+  #msg.err { display:block; background:#3a1620; border:1px solid #7a2a3c; }
+  #msg.ok { display:block; background:#12301f; border:1px solid #1f6b40; }
+  .layout { display:grid; grid-template-columns:minmax(0,1fr) 340px; gap:24px; padding:8px 28px; align-items:start; }
+  .tools { display:flex; gap:12px; align-items:center; padding:8px 0; flex-wrap:wrap; }
+  .tools label { color:var(--dim); font-size:14px; display:flex; align-items:center; gap:6px; }
+  select, .ghost { background:var(--panel); color:var(--txt); border:1px solid var(--line); border-radius:8px; padding:6px 10px; font:inherit; }
+  .ghost:hover { border-color:var(--acc); }
+  .ghost:disabled { opacity:.4; cursor:default; }
+  .primary { background:var(--acc); color:#0b0b0f; border:0; border-radius:20px; padding:9px 18px; font-weight:700; }
+  .primary:disabled { background:#2c2c38; color:#777; cursor:default; }
+  ul { list-style:none; margin:0; padding:0; }
+  li.row { --g:var(--acc); display:flex; align-items:center; gap:14px; padding:8px 10px; border-radius:10px; border-bottom:1px solid var(--line); }
+  li.row:hover { background:color-mix(in srgb, var(--g) 13%, transparent); }
+  li.row.done { opacity:.55; }
+  li.row img, .nocover { width:56px; height:56px; border-radius:6px; background:var(--panel2); flex:none; object-fit:cover; }
+  .info { flex:1; min-width:0; }
+  .t { font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .a { color:var(--dim); font-size:13.5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .pill { display:inline-block; font-size:11px; padding:1px 8px; border-radius:10px; background:color-mix(in srgb, var(--g,var(--acc)) 22%, transparent); color:var(--txt); margin-right:6px; margin-top:3px; }
+  .play { width:40px; height:40px; border-radius:50%; border:0; background:var(--g); color:#0b0b0f; font-size:15px; flex:none; }
+  .play.cur { box-shadow:0 0 0 3px var(--bg), 0 0 0 5px var(--g); }
+  .add { width:32px; height:32px; border-radius:50%; border:1px solid var(--line); background:transparent; font-size:18px; line-height:1; flex:none; }
+  .add:hover:not(:disabled) { border-color:var(--g); color:var(--g); }
+  .add:disabled { color:var(--g); cursor:default; border-color:var(--g); }
+  input[type=checkbox] { width:20px; height:20px; accent-color:var(--acc); flex:none; }
+  .have { color:var(--dim); font-size:12px; flex:none; width:96px; text-align:right; }
+  .empty { padding:24px 4px; color:var(--dim); }
+  #panel { position:sticky; top:16px; background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:16px; max-height:calc(100vh - 32px - var(--bar-h)); overflow:auto; }
+  #panel h2 { margin:0 0 10px; font-size:18px; }
+  #pname { width:100%; background:var(--panel2); border:1px solid var(--line); border-radius:8px; color:var(--txt); padding:8px 10px; font:inherit; }
+  #pcount { color:var(--dim); font-size:13px; margin:8px 0; }
+  #plist li { display:flex; align-items:center; gap:8px; padding:6px 4px; border-radius:8px; cursor:grab; }
+  #plist li.over { outline:1px dashed var(--acc); }
+  #plist li img, #plist .nocover { width:36px; height:36px; border-radius:4px; }
+  #plist .info { font-size:13px; }
+  .mini { background:transparent; border:1px solid var(--line); border-radius:6px; width:26px; height:26px; padding:0; font-size:12px; flex:none; }
+  .mini:hover { border-color:var(--acc); }
+  .pactions { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+  .hint { color:var(--dim); font-size:12px; margin-top:8px; }
+  #plink a { color:var(--acc); }
+  #foot { position:fixed; left:0; right:0; bottom:0; z-index:30; height:var(--bar-h); background:#13131a; border-top:1px solid var(--line); display:flex; align-items:center; gap:16px; padding:8px 28px; }
+  #now { display:flex; align-items:center; gap:12px; width:280px; min-width:0; flex:none; }
+  #now img, #now .nocover { width:56px; height:56px; border-radius:6px; flex:none; }
+  #embed { flex:1; min-width:0; }
+  #embed iframe { width:100%; height:80px; border:0; border-radius:12px; display:block; }
+  #drawerbtn { display:none; }
+  .local-only { }
+  .static-only { display:none; }
+  body.static .static-only { display:block; }
+  body.static .local-only { display:none !important; }
+  @media (max-width:900px) {
+    .layout { grid-template-columns:1fr; padding:8px 14px; }
+    header, #tabs { padding-left:14px; padding-right:14px; }
+    #msg { margin-left:14px; margin-right:14px; }
+    #panel { position:fixed; left:0; right:0; bottom:0; top:15vh; z-index:40; border-radius:16px 16px 0 0; max-height:none; transform:translateY(105%); transition:transform .2s; }
+    #panel.open { transform:none; }
+    #drawerbtn { display:block; position:fixed; right:14px; bottom:calc(var(--bar-h) + 12px); z-index:35; }
+    #now { display:none; }
+    #foot { padding:8px 14px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1 class="brand">RadarNovedades</h1>
+  <div class="sub">Las novedades de la semana por género. Escuchá, armá tu playlist con el + y llevátela a Spotify.</div>
+</header>
+<div id="msg"></div>
+<div id="tabs"></div>
+<div class="layout">
+  <main>
+    <div class="tools">
+      <label class="local-only"><input type="checkbox" id="all"> Seleccionar todo</label>
+      <label>Ordenar
+        <select id="sort">
+          <option value="fecha">Fecha (nuevos primero)</option>
+          <option value="artista">Artista (A–Z)</option>
+          <option value="tipo">Tipo</option>
+        </select>
+      </label>
+      <button class="primary local-only" id="addbtn" disabled>Agregar a Elegidos</button>
+      <button class="ghost local-only" id="reload">Recargar</button>
+    </div>
+    <ul id="list"></ul>
+  </main>
+  <aside id="panel">
+    <h2>Mi playlist</h2>
+    <input id="pname" maxlength="100" aria-label="Nombre de la playlist">
+    <div id="pcount"></div>
+    <ul id="plist"></ul>
+    <div class="pactions">
+      <button class="primary local-only" id="pcreate" disabled>Crear en Spotify</button>
+      <button class="ghost" id="pcopy" disabled>Copiar links</button>
+      <button class="ghost" id="pclear" disabled>Vaciar</button>
+    </div>
+    <div class="hint">Copiar links: pegalos en una playlist de Spotify de escritorio (Ctrl+V).</div>
+    <div class="hint static-only">Escuchá con ▶. Si tenés sesión de Spotify en el navegador suena completo y podés guardar con el +. Armá tu lista y usá Copiar links.</div>
+    <div id="plink" class="hint"></div>
+  </aside>
+</div>
+<button class="primary" id="drawerbtn">Mi playlist (0)</button>
+<div id="foot">
+  <div id="now"><div class="nocover"></div><div class="info"><div class="t" id="nowt">Nada sonando</div><div class="a" id="nowa">Tocá ▶ en un tema</div></div></div>
+  <div id="embed"></div>
+</div>
+<script>
+"use strict";
+const TOKEN = "__TOKEN__";
+const DRAFT_KEY = "radar.draft.v1";
+const PALETTE = ["#8b5cf6","#06b6d4","#f59e0b","#ec4899","#84cc16","#3b82f6","#f97316","#14b8a6","#ef4444","#a855f7"];
+const GENRE_COLORS = [["melodic","#8b5cf6"],["progre","#06b6d4"],["house","#f59e0b"],["indie dance","#ec4899"],
+  ["psytrance","#84cc16"],["reflexivos","#3b82f6"],["cerato","#f97316"]];
+const TYPE_LABEL = { single: "Single", ep: "EP", album: "Álbum" };
+let data = null, cur = null, localMode = true, nowId = null, nowPaused = true;
+const sel = new Set();
+const $ = id => document.getElementById(id);
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+const safeImg = u => (typeof u === "string" && u.startsWith("https://")) ? u : null;
+function genreColor(name) {
+  const n = (name || "").toLowerCase();
+  for (const [k, c] of GENRE_COLORS) if (n.includes(k)) return c;
+  let h = 0; for (const ch of n) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return PALETTE[h % PALETTE.length];
+}
+
+// ---- Reproductor: un solo lugar para cambiar de técnica. ----
+// Primero el iFrame API oficial de Spotify; si no carga en ~4 s o falla, iframe común cambiando el src.
+const player = (() => {
+  let ctrl = null, mode = null, scriptP = null, busy = false;
+  const host = () => $("embed");
+  function loadScript() {
+    if (scriptP) return scriptP;
+    scriptP = new Promise((resolve, reject) => {
+      const timer = setTimeout(() => reject(new Error("timeout")), 4000);
+      window.onSpotifyIframeApiReady = api => { clearTimeout(timer); resolve(api); };
+      const s = document.createElement("script");
+      s.src = "https://open.spotify.com/embed/iframe-api/v1"; s.async = true;
+      s.onerror = () => { clearTimeout(timer); reject(new Error("script")); };
+      document.head.appendChild(s);
+    });
+    scriptP.catch(() => {});
+    return scriptP;
+  }
+  function fallback(id) {
+    mode = "iframe"; ctrl = null;
+    host().textContent = "";
+    const f = document.createElement("iframe");
+    f.title = "Reproductor de Spotify";
+    f.setAttribute("allow", "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture");
+    f.src = "https://open.spotify.com/embed/track/" + encodeURIComponent(id) + "?utm_source=generator";
+    host().appendChild(f);
+  }
+  // Devuelve true si el pedido fue aceptado (recién ahí la página marca "sonando ahora").
+  async function play(id) {
+    const uri = "spotify:track:" + id;
+    if (busy) return false;
+    if (mode === "api" && ctrl) {
+      try { (ctrl.loadEntity || ctrl.loadUri).call(ctrl, uri); ctrl.play(); return true; }
+      catch (e) { fallback(id); return true; }
+    }
+    if (mode === "iframe") { fallback(id); return true; }
+    busy = true;
+    try {
+      const api = await loadScript();
+      const box = el("div"); host().textContent = ""; host().appendChild(box);
+      ctrl = await new Promise((resolve, reject) => {
+        const t = setTimeout(() => reject(new Error("timeout")), 4000);
+        api.createController(box, { uri, width: "100%", height: 80 }, c => { clearTimeout(t); resolve(c); });
+      });
+      mode = "api";
+      ctrl.addListener("playback_update", e => {
+        nowPaused = !!(e && e.data && e.data.isPaused); refreshPlay();
+      });
+      try { ctrl.play(); } catch (e) {}
+    } catch (e) { fallback(id); }
+    finally { busy = false; }
+    return true;
+  }
+  function toggle() { try { ctrl.togglePlay(); } catch (e) {} }
+  return { play, toggle, canPause: () => mode === "api" && !!ctrl };
+})();
+
+function findTrack(id) {
+  if (data) for (const g of data.genres) for (const t of g.tracks) if (t.id === id) return Object.assign({ genre: g.genre }, t);
+  return draft.tracks.find(t => t.id === id) || null;
+}
+async function playTrack(id) {
+  if (id === nowId && player.canPause()) { player.toggle(); return; }
+  if (!(await player.play(id))) return;
+  nowId = id; nowPaused = false;
+  const t = findTrack(id);
+  $("nowt").textContent = t ? t.name : "";
+  $("nowa").textContent = t ? t.artists.join(", ") : "";
+  const old = document.querySelector("#now img, #now .nocover");
+  const img = t ? safeImg(t.image) : null;
+  let c;
+  if (img) { c = el("img"); c.src = img; c.alt = ""; } else c = el("div", "nocover");
+  old.replaceWith(c);
+  refreshPlay();
+}
+function refreshPlay() {
+  for (const b of document.querySelectorAll(".play")) {
+    const on = b.dataset.id === nowId;
+    b.classList.toggle("cur", on);
+    // el estado de pausa solo se muestra con el iFrame API (en el iframe común no se puede controlar)
+    b.textContent = on && !nowPaused && player.canPause() ? "❚❚" : "▶";
+  }
+}
+
+// ---- Borrador de "Mi playlist" ----
+function todayName() { return "Mi selección " + new Date().toISOString().slice(0, 10); }
+let draft = { name: todayName(), tracks: [] };
+function normalizeDraft(d) {
+  if (!d || !Array.isArray(d.tracks)) return null;
+  const str = (v, n) => (typeof v === "string" ? v.slice(0, n) : "");
+  const seen = new Set(), tracks = [];
+  for (const t of d.tracks) {
+    if (tracks.length >= 500) break;
+    if (!t || typeof t.id !== "string" || !/^[A-Za-z0-9]{22}$/.test(t.id) || seen.has(t.id)) continue;
+    seen.add(t.id);
+    tracks.push({ id: t.id, name: str(t.name, 300), genre: str(t.genre, 100),
+      artists: Array.isArray(t.artists) ? t.artists.filter(a => typeof a === "string").map(a => a.slice(0, 200)) : [],
+      image: safeImg(t.image) });
+  }
+  return { name: str(d.name, 100) || todayName(), tracks };
+}
+try {
+  const d = normalizeDraft(JSON.parse(localStorage.getItem(DRAFT_KEY) || "null"));
+  if (d) draft = d;
+} catch (e) { draft = { name: todayName(), tracks: [] }; }
+let createdSig = null;
+const draftSig = () => JSON.stringify([draft.name.trim(), draft.tracks.map(t => t.id)]);
+function updateCreate() { $("pcreate").disabled = !draft.tracks.length || draftSig() === createdSig; }
+function saveDraft() { try { localStorage.setItem(DRAFT_KEY, JSON.stringify(draft)); } catch (e) {} }
+const inDraft = id => draft.tracks.some(t => t.id === id);
+function addToDraft(t, genreName) {
+  if (inDraft(t.id)) return;
+  if (draft.tracks.length >= 500) { msg("Mi playlist admite hasta 500 temas.", "err"); return; }
+  draft.tracks.push({ id: t.id, name: t.name, artists: t.artists, image: safeImg(t.image), genre: genreName });
+  saveDraft(); renderPanel(); render();
+}
+function moveDraft(from, to) {
+  if (to < 0 || to >= draft.tracks.length || from === to) return;
+  const [x] = draft.tracks.splice(from, 1); draft.tracks.splice(to, 0, x);
+  saveDraft(); renderPanel();
+}
+function renderPanel() {
+  $("pname").value = draft.name;
+  const n = draft.tracks.length;
+  $("pcount").textContent = n ? (n + (n === 1 ? " tema" : " temas")) : "Todavía no sumaste temas. Usá el + de cada fila.";
+  $("drawerbtn").textContent = "Mi playlist (" + n + ")";
+  updateCreate(); $("pcopy").disabled = !n; $("pclear").disabled = !n;
+  const ul = $("plist"); ul.textContent = "";
+  draft.tracks.forEach((t, i) => {
+    const li = el("li"); li.draggable = true; li.style.setProperty("--g", genreColor(t.genre));
+    li.addEventListener("dragstart", e => { e.dataTransfer.setData("text/plain", String(i)); e.dataTransfer.effectAllowed = "move"; });
+    li.addEventListener("dragover", e => { e.preventDefault(); li.classList.add("over"); });
+    li.addEventListener("dragleave", () => li.classList.remove("over"));
+    li.addEventListener("drop", e => {
+      e.preventDefault(); li.classList.remove("over");
+      const from = parseInt(e.dataTransfer.getData("text/plain"), 10);
+      if (!isNaN(from)) moveDraft(from, i);
+    });
+    let cover;
+    if (safeImg(t.image)) { cover = el("img"); cover.src = safeImg(t.image); cover.alt = ""; cover.loading = "lazy"; } else cover = el("div", "nocover");
+    const info = el("div", "info");
+    info.append(el("div", "t", t.name), el("div", "a", t.artists.join(", ")));
+    const up = el("button", "mini", "↑"); up.title = "Subir"; up.onclick = () => moveDraft(i, i - 1);
+    const dn = el("button", "mini", "↓"); dn.title = "Bajar"; dn.onclick = () => moveDraft(i, i + 1);
+    const rm = el("button", "mini", "✕"); rm.title = "Quitar";
+    rm.onclick = () => { draft.tracks.splice(i, 1); saveDraft(); renderPanel(); render(); };
+    li.append(cover, info, up, dn, rm);
+    ul.appendChild(li);
+  });
+}
+$("pname").oninput = e => { draft.name = e.target.value; saveDraft(); updateCreate(); };
+$("pclear").onclick = () => { draft.tracks = []; saveDraft(); $("plink").textContent = ""; renderPanel(); render(); };
+$("pcopy").onclick = async () => {
+  const text = draft.tracks.map(t => "https://open.spotify.com/track/" + t.id).join("\n");
+  try { await navigator.clipboard.writeText(text); }
+  catch (e) {
+    const ta = el("textarea"); ta.value = text; document.body.appendChild(ta); ta.select();
+    try { document.execCommand("copy"); } catch (e2) {}
+    ta.remove();
+  }
+  msg("Listo: copié " + draft.tracks.length + " links. Pegalos en una playlist de Spotify de escritorio (Ctrl+V).", "ok");
+};
+$("pcreate").onclick = async () => {
+  if (!draft.tracks.length) return;
+  const name = (draft.name || "").trim() || todayName();
+  $("pcreate").disabled = true; msg("Creando la playlist en Spotify...", "ok"); $("plink").textContent = "";
+  try {
+    const r = await api("/api/create_playlist", { name, track_ids: draft.tracks.map(t => t.id) });
+    createdSig = draftSig();
+    msg("Listo: creé '" + r.name + "' con " + r.added + " temas." + (r.warning ? " " + r.warning : ""), "ok");
+    if (typeof r.url === "string" && r.url.startsWith("https://open.spotify.com/")) {
+      const a = el("a", "", "Abrir en Spotify"); a.href = r.url; a.target = "_blank"; a.rel = "noopener";
+      $("plink").appendChild(a);
+    }
+  } catch (e) { msg(e.message, "err"); }
+  updateCreate();
+};
+$("drawerbtn").onclick = () => $("panel").classList.toggle("open");
+
+// ---- Datos y lista ----
+function msg(text, kind) {
+  const m = $("msg");
+  m.textContent = text || ""; m.className = text ? kind : "";
+}
+async function api(path, body) {
+  const opt = body === undefined ? {} : {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "X-Radar-Token": TOKEN },
+    body: JSON.stringify(body)
+  };
+  const r = await fetch(path, opt);
+  let j = {};
+  try { j = await r.json(); } catch (e) {}
+  if (!r.ok) throw new Error(j.error || ("Error " + r.status));
+  return j;
+}
+function genre() { return data && data.genres.find(g => g.genre === cur); }
+const TYPE_ORDER = { single: 0, ep: 1, album: 2 };
+function sorted(tracks) {
+  const by = $("sort").value, a = tracks.slice();
+  const date = t => t.date || "";
+  const byDate = (x, y) => date(y).localeCompare(date(x));
+  if (by === "artista") a.sort((x, y) => (x.artists[0] || "").localeCompare(y.artists[0] || "", "es", { sensitivity: "base" }) || byDate(x, y));
+  else if (by === "tipo") a.sort((x, y) => (TYPE_ORDER[x.type] ?? 9) - (TYPE_ORDER[y.type] ?? 9) || byDate(x, y));
+  else a.sort(byDate);
+  return a;
+}
+function render() {
+  if (!data) return;
+  const tabs = $("tabs"); tabs.textContent = "";
+  for (const g of data.genres) {
+    const b = el("button", "tab" + (g.genre === cur ? " on" : ""), g.genre + " (" + g.tracks.length + ")");
+    b.style.setProperty("--c", genreColor(g.genre));
+    b.onclick = () => { cur = g.genre; sel.clear(); render(); };
+    tabs.appendChild(b);
+  }
+  const ul = $("list"); ul.textContent = "";
+  const g = genre();
+  document.documentElement.style.setProperty("--acc", genreColor(cur));
+  if (!g) { ul.appendChild(el("div", "empty", "No hay nada para mostrar todavía.")); updateBar(); return; }
+  if (g.error && !data.error) ul.appendChild(el("div", "empty", g.error));
+  if (!g.error && !g.tracks.length) ul.appendChild(el("div", "empty", "Esta semana no hay temas en " + (g.playlist_name || ("Novedades " + g.genre)) + "."));
+  const color = genreColor(g.genre);
+  for (const t of sorted(g.tracks)) {
+    const li = el("li", "row" + (t.in_elegidos ? " done" : "")); li.style.setProperty("--g", color);
+    let cover;
+    if (safeImg(t.image)) { cover = el("img"); cover.src = safeImg(t.image); cover.alt = ""; cover.loading = "lazy"; } else cover = el("div", "nocover");
+    const info = el("div", "info");
+    const meta = el("div");
+    if (TYPE_LABEL[t.type]) meta.appendChild(el("span", "pill", TYPE_LABEL[t.type]));
+    if (t.date) meta.appendChild(el("span", "pill", t.date));
+    info.append(el("div", "t", t.name), el("div", "a", t.artists.join(", ")), meta);
+    const p = el("button", "play", "▶"); p.title = "Escuchar"; p.dataset.id = t.id;
+    p.onclick = () => playTrack(t.id);
+    const plus = el("button", "add", inDraft(t.id) ? "✓" : "+");
+    plus.title = inDraft(t.id) ? "Ya está en Mi playlist" : "Sumar a Mi playlist"; plus.disabled = inDraft(t.id);
+    plus.onclick = () => addToDraft(t, g.genre);
+    li.append(cover, info, p, plus);
+    if (localMode) {
+      if (t.in_elegidos) li.appendChild(el("div", "have", "ya en Elegidos"));
+      else {
+        const c = el("input"); c.type = "checkbox"; c.checked = sel.has(t.id);
+        c.onchange = () => { c.checked ? sel.add(t.id) : sel.delete(t.id); updateBar(); };
+        li.appendChild(c);
+      }
+    }
+    ul.appendChild(li);
+  }
+  refreshPlay(); updateBar();
+}
+function updateBar() {
+  const g = genre(); const n = sel.size;
+  $("addbtn").disabled = !g || n === 0;
+  $("addbtn").textContent = n ? ("Agregar " + n + " a Elegidos " + g.genre) : "Agregar a Elegidos";
+  const free = g ? g.tracks.filter(t => !t.in_elegidos) : [];
+  $("all").checked = free.length > 0 && free.every(t => sel.has(t.id));
+}
+$("sort").onchange = render;
+$("all").onchange = e => {
+  const g = genre(); if (!g) return;
+  for (const t of g.tracks) if (!t.in_elegidos) { e.target.checked ? sel.add(t.id) : sel.delete(t.id); }
+  render();
+};
+$("addbtn").onclick = async () => {
+  const g = genre(); if (!g || !sel.size) return;
+  $("addbtn").disabled = true; msg("Agregando...", "ok");
+  try {
+    const r = await api("/api/add", { genre: g.genre, track_ids: [...sel] });
+    for (const t of g.tracks) if (r.in_elegidos.includes(t.id)) t.in_elegidos = true;
+    sel.clear();
+    msg("Listo: se agregaron " + r.added + " a Elegidos " + g.genre +
+        (r.skipped ? " (" + r.skipped + " ya estaban)." : "."), "ok");
+  } catch (e) { msg(e.message, "err"); }
+  render();
+};
+function setMode(local) { localMode = local; document.body.classList.toggle("static", !local); }
+async function fetchStatic() {
+  const r = await fetch("./novedades.json");
+  if (!r.ok) throw new Error("No encontré las novedades (novedades.json).");
+  return r.json();
+}
+async function load(reload) {
+  msg(reload ? "Leyendo tus playlists de Spotify..." : "", "ok");
+  $("reload").disabled = true;
+  try {
+    if (reload) data = await api("/api/reload", {});
+    else {
+      try { data = await api("/api/data"); setMode(true); }
+      catch (e) { data = await fetchStatic(); setMode(false); }  // sin servidor local: modo solo lectura
+    }
+    if (data.error) msg(data.error, "err"); else msg("", "");  // el error global manda sobre el de cada género
+    if (!cur || !data.genres.some(g => g.genre === cur)) cur = data.genres.length ? data.genres[0].genre : null;
+    sel.clear(); render();
+  } catch (e) { msg(e.message, "err"); }
+  finally { $("reload").disabled = false; }
+}
+$("reload").onclick = () => load(true);
+renderPanel();
+load(false);
+</script>
+</body>
+</html>
